@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="rf.css">
+</head>
+<body>
+    <div id="rf">
+        <form id="registrationform" onsubmit="return validateform()">
+        <h1>||New Registration For KVPC||</h1>
+        <br><br>
+        <div id="dread"> <br> <br><label for="email">Email :</label>
+       <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="">Username:</label>
+      <input type="text" id="Username" name="Username" required>
+        <br><br>
+        <label for="phone number">Phone number  :
+            <input type="phone number" id="phone number" name="phone number"required>
+            <br><br>
+            <label for="Password">Password  :</label>
+            <input type="Password" id="Password" name="password" required>
+            <br><br>
+            <label for="confirm password"> Confirm Password  :</label>
+            <input type="confirm password" id="confirm password" name="confirm password" required>
+            <br><br>
+        <label> Enter your Gender </label><br><br>
+        <label for="male">Male :</label>
+         <input type="radio" id="male" name="Gender" value="male">
+         <label for="female">Female :</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="other">other :</label>
+        <input type="radio" id="other" name="Gender" value="other"><br><br>
+    
+        <label>Your Prefered Language</label>
+        <br><br>
+        <label for="english">ENGLISH  :</label>
+        <input type="checkbox" id="english" >
+          <br><br>
+          <label for="Hindi">HINDI  :</label>
+        <input type="checkbox" id="Hindi">
+        <br><br>
+        <label for="assamese">ASSAMESE  :</label>
+        <input type="checkbox" id="assamese"><br><br> 
+      <label for="assamese">TAMIL  :</label>
+        <input type="checkbox" id="assamese"></div>
+        <br><br>
+<button>CONFIRM</button><br><br>
+<div id="san"><a href="kvpcc.html">back to login</a></div>
+        </form> 
+
+    </div>
+    
+</body>
+</html>

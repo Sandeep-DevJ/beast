@@ -1,0 +1,56 @@
+body{
+     height:100vh;
+    text-align: center;
+   
+
+}
+#rf{
+    box-shadow: 5px 10px 40px rgb(3, 87, 255);
+    padding:2px 50px;
+    margin-left: 400px;
+    margin-right: 300px;
+    text-align: center;
+    color:rgb(56, 9, 127);
+    border-radius:40px;
+     box-shadow:5px 10px 20px rgba(104, 246, 27, 0.834);
+     background:linear-gradient(380deg, rgba(126, 220, 119, 0.749), rgba(187, 255, 2, 0.525));
+}
+input{
+background: rgba(230, 239, 233, 0.718);
+
+color:rgb(8, 4, 4);
+
+ 
+
+}
+#dread{
+   background: linear-gradient(380deg, rgb(6, 215, 107),rgb(28, 241, 4));
+     margin-left:120px;
+     margin-right:120px;
+     text-align: center;
+     color:blue;
+     border-radius: 20px;
+     font-size: 150%;
+    padding-bottom: 20px;
+}
+button{
+    background:linear-gradient(300deg, rgb(13, 232, 170),rgb(0, 255, 51),rgb(255, 230, 0));
+    padding:15px 40px;
+    border-radius: 40px;
+    transition:all 0.2s ease-in-out;
+   
+
+}
+button:hover{
+
+
+    transform:scale(1.02);
+    background:rgb(9, 231, 194);
+}
+
+
+#san{
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:red;
+}

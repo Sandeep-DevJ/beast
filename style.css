@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(500deg, #fb1212, #09da3d,#34b4fe);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   
+
+#clock {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #e910ec;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px 100px;
+    border-radius: 60px;
+    box-shadow: 5px 15px 40px rgba(104, 246, 27, 0.834);
+    letter-spacing: 5px;
+    text-align: right;
+   transition:all 0.5s ease-in-out;
+}
+
+#clock:hover {
+    transform: scale(1.05);
+    background: rgba(26, 152, 248, 0.25);
+   
+}
+#h1{
+    font-size:1rem;
+    color:#fb1212;
+padding:5px 100px;
+border-radius:100px;
+ box-shadow: 5px 15px 40px rgba(104, 246, 27, 0.834);
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+transition:all 1.0s ease-in-out;
+background:linear-gradient(500deg, #fb1212, #97f707,#34b4fe);
+}
+#h1:hover{
+    transform:scale(1.05);
+    background:rgba(255, 0, 0, 0);
+
+}
